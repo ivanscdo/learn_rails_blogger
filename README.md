@@ -16,10 +16,14 @@
 
 * Deployment instructions -->
 
-Tutorial
+#/blog
 
-[jumpstartlab.com](http://tutorials.jumpstartlab.com/projects/blogger.html)
+## About
 
-Current status
+Following [jumpstartlab's blogger tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), as recommended by [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/getting-your-feet-wet). 
+
+## Current status
 
 Up and running with `rails new blogger`
+
+set up postgres
