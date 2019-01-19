@@ -16,7 +16,7 @@
 
 * Deployment instructions -->
 
-#/blog
+#blog
 
 ## About
 
@@ -27,3 +27,12 @@ Following [jumpstartlab's blogger tutorial](http://tutorials.jumpstartlab.com/pr
 Up and running with `rails new blogger`
 
 set up postgres
+
+created Article model with `bin/rails generate model Article` and added two columns inside the `db/migrate/(timestamp)_create_articles.rb` file
+
+ran the migration `bin/rake db:migrate`
+
+added sample data to db 
+created object `a = Article.new`
+added sample data `a.title = "title"` and `a.body = "body"`
+saved sample data `a.save`
