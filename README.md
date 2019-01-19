@@ -17,7 +17,9 @@
 * Deployment instructions -->
 
 Tutorial
-jumpstartlab.com[http://tutorials.jumpstartlab.com/projects/blogger.html]
+
+[jumpstartlab.com](http://tutorials.jumpstartlab.com/projects/blogger.html)
 
 Current status
+
 Up and running with `rails new blogger`
