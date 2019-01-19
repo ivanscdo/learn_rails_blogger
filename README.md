@@ -1,4 +1,4 @@
-# README
+<!-- # README
 
 * Ruby version
 
@@ -14,4 +14,10 @@
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Deployment instructions -->
+
+Tutorial
+jumpstartlab.com[http://tutorials.jumpstartlab.com/projects/blogger.html]
+
+Current status
+Up and running with `rails new blogger`
