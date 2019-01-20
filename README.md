@@ -22,7 +22,7 @@
 
 Following [jumpstartlab's blogger tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), as recommended by [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/getting-your-feet-wet). 
 
-## Current status
+<!-- ## Current status
 
 Up and running with `rails new blogger`
 
@@ -32,7 +32,22 @@ created Article model with `bin/rails generate model Article` and added two colu
 
 ran the migration `bin/rake db:migrate`
 
-added sample data to db 
+added sample data to db
+
 created object `a = Article.new`
+
 added sample data `a.title = "title"` and `a.body = "body"`
+
 saved sample data `a.save`
+
+added articles route
+
+`bin/rails generate controller articles`
+
+created template
+
+added navigation
+
+created template
+
+styled -->
