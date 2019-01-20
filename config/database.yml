@@ -39,5 +39,12 @@ test:
   <<: *default
   database: <%= ENV['POSTGRES_TEST_DB'] %>
 production:
-  <<: *default
-  database: <%= ENV['POSTGRES_DB'] %>
+  # <<: *default
+  adapter: postgresql
+  encoding: unicode
+  username: <%= ENV['POSTGRES_USER_PROD'] %>
+  password: <%= ENV['POSTGRES_PASSWORD_PROD'] %>
+  pool: 5
+  timeout: 5000
+  host: <%= ENV['POSTGRES_HOST_PROD'] %>
+  database: <%= ENV['POSTGRES_DB_PROD'] %>
