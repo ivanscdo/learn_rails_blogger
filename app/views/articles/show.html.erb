@@ -6,6 +6,11 @@
     <% end %>
 </p>
 <div>
+<p>
+    <% if @article.image.exists? %>
+        <%= image_tag @article.image.url(:medium) %>
+    <% end %>
+</p>
     <%= @article.body %>
     <button>
         <%= link_to "Delete", article_path(@article), method: :delete, data: {confirm: "Really delete this article?"} %>

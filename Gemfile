@@ -37,9 +37,12 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# for hosting on heroku with postgres
 gem 'pg'
 gem 'rails_12factor', group: :production
 gem 'dotenv-rails'
+
+gem 'paperclip'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

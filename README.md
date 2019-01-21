@@ -16,11 +16,19 @@
 
 * Deployment instructions -->
 
-#blog
+<!-- # /blog -->
 
-## About
+# Rails Blogger
+
+Learn Ruby on Rails by building a blogging site
+
+## Tutorial
 
 Following [jumpstartlab's blogger tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), as recommended by [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/getting-your-feet-wet). 
+
+## Hosted
+
+Project is hosted on Heroku and can be found at [rails-blogger-ivanscdo.herokuapp.com](https://rails-blogger-ivanscdo.herokuapp.com)
 
 <!-- ## Current status
 
@@ -49,5 +57,21 @@ created template
 added navigation
 
 created template
+
+...
+
+added paperclilp to Gemfile
+
+brew installed imagemagick
+
+ran bundle install
+
+bin/rails generate migration add_papercilp_fiels_article
+
+added columns to migration file
+
+ran rake db: migrate
+
+
 
 styled -->
